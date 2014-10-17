@@ -9,15 +9,11 @@ Your browser does not support the HTML5 canvas tag.</canvas>
 
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
-ctx.beginPath();
-alert();
-ctx.moveTo(95, 50);
-ctx.arc(95,50,40,0,0.4*Math.PI);
-ctx.closePath();
+ctx.rect(10,10,20,20);
 ctx.stroke();
-ctx.fillStyle='#FF0000';
-ctx.fill();
-ctx.onmouseover=alert();
+ctx.beginPath();
+ctx.rect(40,10,20,20);
+ctx.stroke();
 </script> 
 
 </body>
